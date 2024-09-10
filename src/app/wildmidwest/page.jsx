@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className={'bg-mainBackgroundColor w-full'}>
                 <div className={'mt-20 max-w-[50%] m-auto pb-5'}>
-                    <SectionTitle title={"Jump Ship!"}/>
+                    <SectionTitle title={"The Wild Midwest"}/>
                     <Carousel slides={slides}/>
                     <div className={"flex flex-row gap-10"}>
                         <div className={"flex flex-col pt-12"}>
