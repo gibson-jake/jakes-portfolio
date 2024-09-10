@@ -46,14 +46,14 @@ export default function Home() {
                     <div className={"flex flex-row gap-10"}>
                         <div className={"flex flex-col pt-12"}>
                             <SimpleProjectInformation title={"Engine"} information={"Unity"}/>
-                            <SimpleProjectInformation title={"Project Type"} information={"Mobile and Web"} styles={"mt-5"}/>
+                            <SimpleProjectInformation title={"Platform"} information={"Mobile and Web"} styles={"mt-5"}/>
                             <SimpleProjectInformation title={"Duration"} information={"8 Weeks"} styles={"mt-5"}/>
                             <SimpleProjectInformation title={"Team Size"} information={"4 Members"} styles={"mt-5"}/>
                             <SimpleProjectInformation title={"Current Status"} information={"Released"} styles={"mt-5"} />
                             <SimpleProjectInformation title={"Links"} information={<span className={"text-blue-400"}><Link passHref={true} href={"https://chamberlands.itch.io/jump-ship"}>Itch.io</Link><br/><Link passHref={true} href={"https://play.google.com/store/apps/details?id=com.MuuMuuGames.JumpShip"}>Google Play Store</Link></span>} styles={"mt-5"}/>
                         </div>
                         <div className={"flex flex-col max-w-[75%] text-gray-400"}>
-                            <SectionTitle title={"Jump Ship!"} styles={"mb-5"}/>
+                            <SectionTitle title={"Development"} styles={"mb-5"}/>
                             <p>
                                 I developed this project alongside a few friends with the purpose of honing in our game
                                 development skills - especially for mobile applications built in Unity. The team
