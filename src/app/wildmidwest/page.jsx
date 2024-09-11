@@ -65,13 +65,13 @@ export default function Home() {
                             <br/>
                             <p>
                                 I completed work on the following areas:
-                                <ul className={"list-disc ml-8"}>
-                                    <li>Core game logic</li>
-                                    <li>Objective functionality</li>
-                                    <li>Win conditions</li>
-                                    <li>UI Implementation</li>
-                                </ul>
                             </p>
+                            <ul className={"list-disc ml-8"}>
+                                <li>Core game logic</li>
+                                <li>Objective functionality</li>
+                                <li>Win conditions</li>
+                                <li>UI Implementation</li>
+                            </ul>
                             <br/>
                             <h3 className={"text-white font-bold text-xl"}>Overview</h3>
                             <p>

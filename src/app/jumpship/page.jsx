@@ -64,13 +64,13 @@ export default function Home() {
                             <br/>
                             <p>
                                 I completed work on the following areas:
-                                <ul className={"list-disc ml-8"}>
-                                    <li>Player interaction</li>
-                                    <li>Gameplay functionality: item pickups, score, abilities</li>
-                                    <li>UI Implementation</li>
-                                    <li>Porting to web application for itch.io</li>
-                                </ul>
                             </p>
+                            <ul className={"list-disc ml-8"}>
+                                <li>Player interaction</li>
+                                <li>Gameplay functionality: item pickups, score, abilities</li>
+                                <li>UI Implementation</li>
+                                <li>Porting to web application for itch.io</li>
+                            </ul>
                             <br/>
                             <h3 className={"text-white font-bold text-xl"}>Overview</h3>
                             <p>
