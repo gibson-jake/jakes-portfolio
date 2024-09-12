@@ -56,13 +56,13 @@ export default function Home() {
                             title={'Procedural Animation'}
                             tools={"Animation Graphs & Inverse Kinematics"}
                             imageSource={animGraph}
-                            link={"/impulse/ui"}
+                            link={"/impulse/animations"}
                         />
                         <ProjectCard
                             title={'HUD and UI Functionality'}
                             tools={"Client Specific RPCs & Player States"}
                             imageSource={uiFunctionality}
-                            link={"/impulse/animation"}
+                            link={"/impulse/ui"}
                         />
                         <ProjectCard
                             title={'Misc. Features'}
