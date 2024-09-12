@@ -83,13 +83,13 @@ export default function Home() {
                                 title={'3D Modeling'}
                                 tools={"Blender, Maya"}
                                 imageSource={PlayfulPhonesThumbnail}
-                                link={"/impulse"}
+                                link={"/models"}
                             />
                             <ProjectCard
                                 title={'3D Animation'}
                                 tools={"Blender, Maya"}
                                 imageSource={Rig}
-                                link={"/jumpship"}
+                                link={"/animation"}
                             />
                         </div>
                     </div>
