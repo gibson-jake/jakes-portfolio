@@ -1,7 +1,5 @@
 ﻿import { useState } from 'react';
 import Image from "next/image";
-import documentation from '/public/images/impulse/Documentation.png'
-import matchmaking from '/public/images/impulse/Matchmaking.png'
 const Carousel = ({ slides }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -43,7 +41,7 @@ const Carousel = ({ slides }) => {
                                         className="absolute top-0 left-0 w-full h-full"
                                         src={slide.src}
                                         title={slide.title}
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allow="encrypted-media; picture-in-picture"
                                         allowFullScreen
                                     ></iframe>
                                 </div>

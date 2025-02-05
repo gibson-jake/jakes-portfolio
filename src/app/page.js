@@ -8,6 +8,8 @@ import wildMidwestLogo from '/public/images/about/TheWildMidwest.png'
 import greenLightCombatLogo from '/public/images/about/GreenLightCombat.png'
 import otherProjects from '/public/images/about/OtherProjects.png'
 import PlayfulPhonesThumbnail from '/public/images/about/PlayfulPhonesThumbnail.png'
+import kitchenThumbnail from '/public/images/kitchen/ComplexFull.png'
+import gaitThumbnail from '/public/images/gait/GaitCity.png'
 import Rig from '/public/images/about/Rig.png'
 import JakeSf from '/public/images/about/JakeSf.png'
 import ProjectCard from "@/Components/ProjectCard";
@@ -31,11 +33,33 @@ export default function Home() {
                 className={`transform w-full absolute opacity-40 bg-black`}
                 src={mainImage}
                 width={1920}
+                alt={"Background Header Image"}
             />
             <div className={'bg-mainBackgroundColor mt-[22.5%] w-full h-full opacity-100 relative'}>
                 <div className={"min-w-fit mx-auto w-fit "}>
                     <div className={"flex flex-col gap-4 min-h-[50%] *:gap-10"}>
-                        <SectionTitle title={"Game Projects"}/>
+                        <SectionTitle title={"Professional Work"}/>
+                        <div className={'flex flex-wrap justify-between'}>
+                            <ProjectCard
+                                styles={"w-[600px] max-w-full"}
+                                title={'Gait Rehab VR'}
+                                tools={"Unreal Engine, C++/Blueprints"}
+                                role={"Gameplay Programmer & AI"}
+                                imageSource={gaitThumbnail}
+                                link={"/gait"}
+                            />
+                            <ProjectCard
+                                styles={"min-w-[600px]"}
+                                title={'Kitchen Rehab VR'}
+                                tools={"Unreal Engine, C++/Blueprints"}
+                                role={"Gameplay Programmer"}
+                                imageSource={kitchenThumbnail}
+                                link={"/kitchen"}
+                            />
+                        </div>
+                    </div>
+                    <div className={"flex flex-col gap-4 min-h-[50%] *:gap-10"}>
+                        <SectionTitle title={"Personal Game Projects"}/>
                         <div className={'flex justify-between w-fill'}>
                             <ProjectCard
                                 title={'Impulse'}
@@ -72,7 +96,7 @@ export default function Home() {
                                 tools={""}
                                 role={"Programming"}
                                 imageSource={otherProjects}
-                                link={"https://github.com/WebG1itch/"}
+                                link={"https://github.com/gibson-jake/"}
                             />
                         </div>
                     </div>
@@ -106,13 +130,14 @@ export default function Home() {
                                 notable foray into game networking has been Impulse, in which I'm rolling my own
                                 matchmaking and hosting service from scratch! I also enjoy working with 3D models and
                                 find the process quite therapeutic :)
-    
+
                                 When not working on games, you can often find me spending time with my friends - gaming
                                 or otherwise, going on adventures, and learning about cool new tech!
                             </p>
-                            
+
                             <Image
                                 src={JakeSf}
+                                alt={"Jake"}
                             />
                         </div>
                     </div>

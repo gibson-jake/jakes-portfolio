@@ -7,7 +7,7 @@ const ProjectCard = ({title, tools, role, imageSource, link, styles}) => {
         <div className={`group ${styles}`}>
             <a href={link}>
                 <Image
-                    className={"rounded-xl h-72 object-fill w-full"}
+                    className={"rounded-xl h-72 object-cover w-full"}
                     src={imageSource}
                     alt="cover"
                     height={250}
